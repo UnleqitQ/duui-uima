@@ -18,9 +18,7 @@ For information on how to train new models, refer to [TRAINING.md](TRAINING.md).
 
 ### Use as Stand-Alone-Image
 
-**Note:** Currently there exists no docker image.
-
-Probable future usage as a stand-alone image:
+Use as a stand-alone image:
 
 ```bash
 docker run docker.texttechnologylab.org/duui-neer-match:latest
@@ -28,9 +26,7 @@ docker run docker.texttechnologylab.org/duui-neer-match:latest
 
 ### Run with a specific port
 
-**Note:** Currently there exists no docker image.
-
-Probable future usage with a specific port:
+Use with a specific port:
 
 ```bash
 docker run -p 1000:9714 docker.texttechnologylab.org/duui-neer-match:latest
@@ -38,9 +34,7 @@ docker run -p 1000:9714 docker.texttechnologylab.org/duui-neer-match:latest
 
 ### Run within DUUI
 
-**Note:** Currently there exists no docker image.
-
-Probable future usage within DUUI:
+Use within DUUI:
 
 ```java
 composer.add(new DUUIDockerDriver.Component("docker.texttechnologylab.org/duui-neer-match:latest")
